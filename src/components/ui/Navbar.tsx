@@ -4,7 +4,7 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
     return (
-        <div>
+        <div data-theme='corporate'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">

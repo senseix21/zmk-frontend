@@ -47,7 +47,7 @@ Home.getLayout = function (children: any) {
 
 export const getStaticProps = async () => {
   try {
-    const res = await fetch('http://localhost:5000/services');
+    const res = await fetch('https://zmk-electrical-backend.vercel.app/services');
     const data = await res.json();
 
     // Return the fetched data as props
